@@ -33,3 +33,9 @@ body{
     text-align: center;
     margin: 40px 0;
 }
+.boxes-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+}
