@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: box-shadow .5s;
 }
 .i{
     background: #1389b2;
@@ -38,4 +39,9 @@ body{
     flex-wrap: wrap;
     max-width: 1300px;
     justify-content: center;
+}
+
+/* effetti di hover */
+.box:hover{
+    box-shadow: 5px 5px 2px rgb(180, 180, 180);
 }
